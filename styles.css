@@ -1,86 +1,98 @@
-body{
-    margin: 25px 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+body {
+  margin: 25px 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-main{
-    background-color: rgb(238, 238, 238);
-    border-radius: 10px;
+.container {
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+  padding-bottom: 1em;
 }
 
-h1{
-    font-weight: 700; 
-    text-align: center;
-    padding-top: 40px;
+#title {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
-p{
-    text-align: center;
-    padding-bottom: 15px;
+h1 {
+  font-size: 26px;
+  padding: 50px 1em;
 }
 
-#img-div{
-    background-color: #ffffff;
-    border: 5px solid #ffffff;
-    padding: 1em;
-    border-radius: 5px;
-    margin-bottom: 0;
+p {
+  text-align: center;
+  padding-bottom: 25px;
 }
 
-img{
-    display: block;
-    max-width: 60%;
-    margin:5px auto;
+#img-div {
+  background-color: #ffffff;
+  border: 5px solid #ffffff;
+  padding: 0.5em;
+  border-radius: 5px;
+  margin-bottom: 0;
 }
 
-#img-caption{
-    margin: 20px auto 5px;
-    padding: 5px auto;
-    text-align: center;
+img {
+  display: block;
+  max-width: 100%;
+  width: 1200px;
+  height: auto;
+  margin: 5px auto;
 }
 
-.italic{
-    font-style: italic;
-    display: inline-block;
-    padding-top: 5px;
+#img-caption {
+  margin: 20px auto 5px;
+  padding: 5px auto;
+  text-align: center;
 }
 
-.bold{
-    font-weight: bold;
+.italic {
+  font-style: italic;
+  display: inline-block;
+  padding-top: 5px;
 }
 
-#tribute-info{
-   padding: 0.1em 4em 0.1em;
-   max-width: 40%;
-   margin: auto;
-   text-align: justify;
+.bold {
+  font-weight: bold;
 }
 
-.life-span{
-    font-size: 18px;
+#tribute-info {
+  padding: 0.1em 4em 0.1em;
+  max-width: 100%;
+  width: 650px;
+  margin: auto;
+  text-align: justify;
 }
 
-li{
-    padding-bottom: 1em;
+.life-span {
+  font-size: 18px;
 }
 
-.end{
-    max-width: 40%;
-   margin: auto;
-   text-align: justify;
-    padding: 2em;
-    font-size: 18px;
+li {
+  padding-bottom: 1em;
 }
 
-.end-span{
-    display: block;
-    text-align: left;
-    padding: 1em;
+.end {
+  width: 600px;
+  max-width: 100%;
+  margin: auto;
+  text-align: justify;
+  padding-left: 30px;
+  font-size: 18px;
 }
 
-footer{
-    text-align: center;
-    padding:auto 2em;
-    margin: 2em;
-    font-size: large;
+.end-span {
+  display: block;
+  text-align: left;
+  padding: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: auto 2em;
+  margin: 2em;
+  font-size: large;
 }
